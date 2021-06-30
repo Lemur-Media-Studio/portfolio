@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+@import "./base/colours.scss";
+@import "./components/header";
+@import "./base/extend";
+@import "./base/mixin";
+
+.redes {
+    position: sticky !important;
+    bottom: 400px !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: $naranja;
+
+    &:hover {
+        color: $naranja !important;
+    }
+}
+
+.section-2 {
+    background-color: $gris;
+}

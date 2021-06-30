@@ -1,0 +1,11 @@
+%titulo {
+    font-family: 'Monoton', cursive;;
+    color: $naranja;
+    font-size: 90px;
+}
+
+h1 {
+    @extend %titulo;
+    background-color: black;
+    padding: 10px;
+}

@@ -1,0 +1,28 @@
+@mixin titulos-secciones ($color) {
+    font-family: 'Nunito', sans-serif !important;
+    font-weight: bold !important;
+    color: $color;
+    font-size: 60px !important;
+}
+
+@mixin parrafos-secciones ($color) {
+    font-family: 'Nunito', sans-serif;
+    color: $color;
+    font-size: 18px !important;
+}
+
+.titulo-inter {
+    @include titulos-secciones(black);
+}
+
+.parrafo-inter {
+    @include parrafos-secciones(black);
+}
+
+.titulo-cioccolato {
+    @include titulos-secciones($naranja);
+}
+
+.parrafo-cioccolato {
+    @include parrafos-secciones(white);
+}

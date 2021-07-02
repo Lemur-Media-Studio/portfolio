@@ -11,7 +11,7 @@
 
 .redes {
     position: sticky !important;
-    bottom: 400px !important;
+    bottom: 50% !important;
 }
 
 a {
@@ -25,4 +25,17 @@ a {
 
 .section-2 {
     background-color: $gris;
+}
+
+.section-3 {
+    background-color: #000;
+}
+
+/* MOBILE STYLES */
+@media only screen and (max-width: 451px) {
+    .redes {
+        position: sticky !important;
+        bottom: 0% !important;
+        justify-content: center;
+    }
 }

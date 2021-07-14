@@ -14,12 +14,69 @@
     bottom: 50% !important;
 }
 
-a {
-    text-decoration: none !important;
-    color: $naranja;
+.colorIg {
+    color: $violeta !important;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px $violeta,
+    0 0 82px $violeta,
+    0 0 92px $violeta,
+    0 0 102px $violeta,
+    0 0 151px $violeta;
 
-    &:hover {
-        color: $naranja !important;
+    a {
+        text-decoration: none !important;
+        color: $violeta;
+    
+        &:hover {
+            color: $violeta !important;
+        }
+    }
+}
+
+.colorGh {
+    color: $celeste !important;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px $celeste,
+    0 0 82px $celeste,
+    0 0 92px $celeste,
+    0 0 102px $celeste,
+    0 0 151px $celeste;
+
+    a {
+        text-decoration: none !important;
+        color: $celeste;
+    
+        &:hover {
+            color: $celeste !important;
+        }
+    }
+}
+
+.colorLi {
+    color: $naranja!important;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px $naranja,
+    0 0 82px $naranja,
+    0 0 92px $naranja,
+    0 0 102px $naranja,
+    0 0 151px $naranja;
+
+    a {
+        text-decoration: none !important;
+        color: $naranja;
+    
+        &:hover {
+            color: $naranja!important;
+        }
     }
 }
 

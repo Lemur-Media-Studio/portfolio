@@ -4,17 +4,21 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url(../img/ladrillos.jpg);
+}
+
 header {
   background-image: url(../img/ladrillos.jpg);
+  padding-top: 100px;
 }
 
 h1 {
   font-family: "Monoton", cursive;
   color: #FF8002;
   text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #FF8002, 0 0 82px #FF8002, 0 0 92px #FF8002, 0 0 102px #FF8002, 0 0 151px #FF8002;
-  background-image: url(../img/ladrillos.jpg);
   padding: 10px;
-  font-size: 90px;
+  font-size: 110px;
   animation: flicker 1.5s infinite alternate;
   /* Flickering animation */
 }
@@ -72,7 +76,6 @@ h1 {
     font-family: "Monoton", cursive;
     color: #FF8002;
     text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #FF8002, 0 0 82px #FF8002, 0 0 92px #FF8002, 0 0 102px #FF8002, 0 0 151px #FF8002;
-    background-image: url(../img/ladrillos.jpg);
     padding: 10px;
     font-size: 50px;
     animation: flicker 1.5s infinite alternate;
@@ -165,6 +168,13 @@ h1 {
 }
 .colorLi a:hover {
   color: #FF8002 !important;
+}
+
+.pilares {
+  padding: 200px;
+}
+.pilares .retro-1 {
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #FF8002, 0 0 82px #FF8002, 0 0 92px #FF8002, 0 0 102px #FF8002, 0 0 151px #FF8002;
 }
 
 .section-2 {

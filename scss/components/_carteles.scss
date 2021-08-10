@@ -1,0 +1,31 @@
+.cartel-1 {
+    border: 3px solid $celeste !important;
+    border-radius: 2px;
+    width: 25%;
+    box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px $celeste,
+    0 0 82px $celeste,
+    0 0 92px $celeste,
+    0 0 102px $celeste,
+    0 0 151px $celeste;
+    animation: flicker2 1.5s infinite alternate;
+    margin: auto;
+    margin-top: 200px;
+    font-family: Neon !important;
+    color: $celeste;
+    text-shadow:
+    0 0 7px #064952,
+    0 0 10px #064952,
+    0 0 21px #fff,
+    0 0 42px $celeste,
+    0 0 82px $celeste,
+    0 0 92px $celeste,
+    0 0 102px $celeste,
+    0 0 151px $celeste;
+}
+
+      
+    

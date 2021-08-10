@@ -9,9 +9,11 @@ body {
 }
 
 @import "./base/colours.scss";
-@import "./components/header";
 @import "./base/extend";
 @import "./base/mixin";
+@import "./base/fonts";
+@import "./components/header";
+@import "./components/carteles";
 
 .redes {
     position: sticky !important;

@@ -137,6 +137,25 @@ header {
   background-image: url(../img/ladrillos.jpg);
 }
 
+/* MOBILE STYLES */
+@media only screen and (max-width: 451px) {
+  .logo-lemur {
+    height: 300px;
+    margin-top: 150px;
+  }
+}
+/* TABLET STYLES */
+@media only screen and (min-width: 452px) and (max-width: 1023px) {
+  .logo-lemur {
+    margin-top: 100px;
+  }
+}
+/* MOBILE STYLES */
+@media only screen and (max-width: 451px) {
+  .cartel-info {
+    height: 200px;
+  }
+}
 .redes {
   position: sticky !important;
   bottom: 50% !important;
@@ -194,10 +213,10 @@ header {
 }
 
 /* MOBILE STYLES */
-@media only screen and (max-width: 451px) {
+@media only screen and (max-width: 768px) {
   .redes {
     position: sticky !important;
-    bottom: 0% !important;
+    bottom: 95% !important;
     justify-content: center;
   }
 }

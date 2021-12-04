@@ -1,0 +1,29 @@
+//------------------------INFO TRABAJOS----------------
+/* MOBILE STYLES */
+@media only screen and (max-width: 451px) {
+    .imagen-flecha-neon{
+        display: none !important;
+    }
+
+    .titulo-trabajos {
+        font-size: 35px;
+    }
+    
+    .parrafo-trabajos {
+        font-size: 12px;
+        text-align: justify;
+    }
+    
+    .programas-img {
+        height: 30px;
+    }
+
+    .logo-trabajos {
+        display: none !important;
+    }
+}
+
+/* TABLET STYLES */
+/* @media only screen and (min-width: 452px) and (max-width: 1023px) {
+
+} */

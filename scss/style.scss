@@ -8,6 +8,7 @@ body {
     background-image: url(../img/ladrillos.jpg);
 }
 
+@import "./base/querys.scss";
 @import "./base/colours.scss";
 @import "./base/extend";
 @import "./base/mixin";

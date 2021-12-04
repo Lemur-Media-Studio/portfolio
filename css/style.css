@@ -220,5 +220,18 @@ header {
     justify-content: center;
   }
 }
+h2 {
+  font-family: "Nunito";
+  font-size: 40px;
+  color: #A738D5;
+  text-shadow: 0 0 42px #A738D5, 0 0 82px #A738D5, 0 0 92px #A738D5, 0 0 102px #A738D5, 0 0 151px #A738D5;
+}
+
+p {
+  font-family: "Nunito";
+  font-size: 14px;
+  color: #01A0B6;
+  text-shadow: 0 0 42px #01A0B6, 0 0 82px #01A0B6, 0 0 92px #01A0B6, 0 0 102px #01A0B6, 0 0 151px #01A0B6;
+}
 
 /*# sourceMappingURL=style.css.map */

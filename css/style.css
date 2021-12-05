@@ -212,6 +212,25 @@ h1 {
   font-family: "Neon";
   src: url(../fonts/NEONLEDLight.ttf) format("woff");
 }
+.btn {
+  background-color: transparent !important;
+  border: solid 2px;
+  border-color: #A738D5;
+  box-shadow: 0 0 5px 1px #fff, 0 0 10px 5px #A738D5, 0 0 15px 8px #A738D5;
+  /* outer cyan */
+  font-family: "Nunito";
+  color: #01A0B6;
+  text-shadow: 0 0 7px #fff, 0 0 20px #fff, 0 0 42px #01A0B6, 0 0 82px #01A0B6, 0 0 92px #01A0B6, 0 0 102px #01A0B6, 0 0 151px #01A0B6;
+}
+
+.btn:hover {
+  border-color: #A738D5;
+  box-shadow: 0 0 10px 3px #fff, 0 0 20px 10px #A738D5, 0 0 30px 17px #A738D5;
+  /* outer cyan */
+  color: #01A0B6;
+  text-shadow: 0 0 7px #fff, 0 0 20px #fff, 0 0 42px #01A0B6, 0 0 82px #01A0B6, 0 0 92px #01A0B6, 0 0 102px #01A0B6, 0 0 151px #01A0B6;
+}
+
 header {
   background-image: url(../img/ladrillos.jpg);
 }

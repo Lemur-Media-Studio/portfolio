@@ -5,8 +5,23 @@
         display: none !important;
     }
 
+    .img-mobile {
+        height: 100px;
+        display: block;
+        margin: auto;
+        filter: drop-shadow(0 0 0.5rem rgb(255, 255, 255));
+    }
+
+    .img-il-mobile {
+        height: 130px;
+        display: block;
+        margin: auto;
+        filter: drop-shadow(0 0 0.5rem rgb(253, 253, 253));
+    }
+
     .titulo-trabajos {
         font-size: 35px;
+        text-align: center;
     }
     
     .parrafo-trabajos {
@@ -24,6 +39,44 @@
 }
 
 /* TABLET STYLES */
-/* @media only screen and (min-width: 452px) and (max-width: 1023px) {
+@media only screen and (min-width: 452px) and (max-width: 1024px) {
+    .img-mobile {
+        display: none;
+    }
 
-} */
+    .img-il-mobile {
+        display: none;
+    }
+
+    .parrafo-trabajos {
+        font-size: 15px;
+    }
+
+    .imagen-flecha-neon{
+        display: none;
+    }
+
+    .img-ipad {
+        height: 245px;
+        filter: drop-shadow(0 0 0.5rem rgb(253, 253, 253));
+    }
+
+    .img-il-ipad {
+        height: 360px;
+        position: relative;
+        right: 35px;
+        top: 15px;
+        filter: drop-shadow(0 0 0.5rem rgb(253, 253, 253));
+    }
+} 
+
+/* DESKTOP STYLES */
+@media only screen and (min-width: 1025px) and (max-width: 2400px) {
+    .img-mobile {
+        display: none;
+    }
+
+    .img-il-mobile {
+        display: none;
+    }
+} 

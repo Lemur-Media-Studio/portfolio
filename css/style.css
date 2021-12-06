@@ -45,6 +45,16 @@ body {
   .logo-trabajos {
     display: none !important;
   }
+
+  .btn {
+    display: block !important;
+    margin: auto !important;
+  }
+
+  .img-how-mobile {
+    height: 80px;
+    filter: drop-shadow(0 0 0.5rem #fdfdfd);
+  }
 }
 /* TABLET STYLES */
 @media only screen and (min-width: 452px) and (max-width: 1024px) {
@@ -69,12 +79,26 @@ body {
     filter: drop-shadow(0 0 0.5rem #fdfdfd);
   }
 
+  .img-how-ipad {
+    height: 90px;
+    filter: drop-shadow(0 0 0.5rem #fdfdfd);
+  }
+
   .img-il-ipad {
     height: 360px;
     position: relative;
     right: 35px;
     top: 15px;
     filter: drop-shadow(0 0 0.5rem #fdfdfd);
+  }
+
+  .btn {
+    display: block !important;
+    margin: auto !important;
+  }
+
+  .img-how-mobile {
+    display: none;
   }
 }
 /* DESKTOP STYLES */
@@ -84,6 +108,10 @@ body {
   }
 
   .img-il-mobile {
+    display: none;
+  }
+
+  .img-how-mobile {
     display: none;
   }
 }

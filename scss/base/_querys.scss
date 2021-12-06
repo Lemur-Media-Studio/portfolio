@@ -1,7 +1,7 @@
 //------------------------INFO TRABAJOS----------------
 /* MOBILE STYLES */
 @media only screen and (max-width: 451px) {
-    .imagen-flecha-neon{
+    .imagen-flecha-neon {
         display: none !important;
     }
 
@@ -23,18 +23,28 @@
         font-size: 35px;
         text-align: center;
     }
-    
+
     .parrafo-trabajos {
         font-size: 12px;
         text-align: justify;
     }
-    
+
     .programas-img {
         height: 30px;
     }
 
     .logo-trabajos {
         display: none !important;
+    }
+
+    .btn {
+        display: block !important;
+        margin: auto !important;
+    }
+
+    .img-how-mobile {
+        height: 80px;
+        filter: drop-shadow(0 0 0.5rem rgb(253, 253, 253));
     }
 }
 
@@ -52,12 +62,17 @@
         font-size: 15px;
     }
 
-    .imagen-flecha-neon{
+    .imagen-flecha-neon {
         display: none;
     }
 
     .img-ipad {
         height: 245px;
+        filter: drop-shadow(0 0 0.5rem rgb(253, 253, 253));
+    }
+
+    .img-how-ipad {
+        height: 90px;
         filter: drop-shadow(0 0 0.5rem rgb(253, 253, 253));
     }
 
@@ -68,7 +83,16 @@
         top: 15px;
         filter: drop-shadow(0 0 0.5rem rgb(253, 253, 253));
     }
-} 
+
+    .btn {
+        display: block !important;
+        margin: auto !important;
+    }
+
+    .img-how-mobile {
+        display: none;
+    }
+}
 
 /* DESKTOP STYLES */
 @media only screen and (min-width: 1025px) and (max-width: 2400px) {
@@ -79,4 +103,8 @@
     .img-il-mobile {
         display: none;
     }
-} 
+
+    .img-how-mobile {
+        display: none;
+    }
+}

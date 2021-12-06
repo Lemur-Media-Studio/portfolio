@@ -1,0 +1,58 @@
+.modal-body {
+    color: $celeste !important;
+    background-image: url(../img/imagen-fondo-violeta.jpg) !important;
+    /*     border-right: solid 5px #FF8B00;
+    border-left: solid 5px #FF8B00; */
+    box-shadow:
+        0 0 5px 1px #fff,
+        /* inner white */
+        0 0 10px 5px $violeta,
+        /* middle magenta */
+        0 0 15px 8px $violeta;
+    /* outer cyan */
+    ;
+}
+
+.titulo-modal {
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.boton-close-modal {
+    background-color: transparent !important;
+    border: solid 2px;
+    border: solid 3px $violeta;
+    box-shadow:
+    0 0 5px 1px #fff,  /* inner white */
+    0 0 10px 5px $violeta, /* middle magenta */
+    0 0 15px 8px $violeta; /* outer cyan */;
+    font-family: "Nunito";
+    color: $celeste;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 20px #fff,
+    0 0 42px $celeste,
+    0 0 82px $celeste,
+    0 0 92px $celeste,
+    0 0 102px $celeste,
+    0 0 151px $celeste;
+    float: right !important;
+}
+
+
+.boton-close-modal:hover{
+    border: solid 3px $violeta;
+    box-shadow:
+    0 0 10px 3px #fff,   /* inner white  */
+    0 0 20px 10px $violeta,  /* middle magenta  */
+    0 0 30px 17px $violeta;  /* outer cyan */ ;
+    color: $celeste;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 20px #fff,
+    0 0 42px $celeste,
+    0 0 82px $celeste,
+    0 0 92px $celeste,
+    0 0 102px $celeste,
+    0 0 151px $celeste; 
+} 

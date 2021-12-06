@@ -1,7 +1,7 @@
 .btn {
     background-color: transparent !important;
     border: solid 2px;
-    border-color: $violeta;
+    border: solid 3px $violeta;
     box-shadow:
     0 0 5px 1px #fff,  /* inner white */
     0 0 10px 5px $violeta, /* middle magenta */
@@ -15,15 +15,15 @@
     0 0 82px $celeste,
     0 0 92px $celeste,
     0 0 102px $celeste,
-    0 0 151px $celeste;
+    0 0 151px $celeste; 
 }
 
 .btn:hover{
-    border-color: $violeta;
+    border: solid 3px $violeta;
     box-shadow:
-    0 0 10px 3px #fff,  /* inner white */
-    0 0 20px 10px $violeta, /* middle magenta */
-    0 0 30px 17px $violeta; /* outer cyan */;
+    0 0 10px 3px #fff,   /* inner white  */
+    0 0 20px 10px $violeta,  /* middle magenta  */
+    0 0 30px 17px $violeta;  /* outer cyan */ ;
     color: $celeste;
     text-shadow:
     0 0 7px #fff,
@@ -32,6 +32,5 @@
     0 0 82px $celeste,
     0 0 92px $celeste,
     0 0 102px $celeste,
-    0 0 151px $celeste;
-
-}
+    0 0 151px $celeste; 
+} 

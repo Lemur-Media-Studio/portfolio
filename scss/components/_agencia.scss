@@ -1,0 +1,37 @@
+.texto-aboutus {
+    text-align: justify;
+}
+
+.card-agencia {
+    background-color: transparent !important;
+    border: solid 5px $naranja-oscuro !important;
+    box-shadow:
+        0 0 5px 1px #fff,
+        /* inner white */
+        0 0 10px 5px $naranja-oscuro,
+        /* middle magenta */
+        0 0 15px 8px $naranja-oscuro;
+}
+
+.img-agencia {
+    border-bottom: solid 5px $naranja-oscuro !important;
+}
+
+.linea-agencia {
+    background-color: $naranja-oscuro;
+    border: solid 5px $naranja-oscuro !important;
+    box-shadow:
+        0 0 5px 1px #fff,
+        /* inner white */
+        0 0 10px 5px $naranja-oscuro,
+        /* middle magenta */
+        0 0 15px 8px $naranja-oscuro;
+}
+
+.titulo-card-agencia {
+    color: white !important;
+    text-shadow:
+    0 0 7px $celeste,
+    0 0 10px $celeste,
+    0 0 22px $celeste;
+}

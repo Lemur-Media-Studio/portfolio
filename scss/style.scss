@@ -16,6 +16,7 @@ body {
 @import "./base/button";
 @import "./components/header";
 @import "./components/carteles";
+@import "./components/agencia";
 @import "./components/redes";
 @import "./base/modals";
 
@@ -33,10 +34,10 @@ h2{
 
 p{
     font-family: "Nunito";
-    font-size: 15px;
+    font-size: 16px;
     color: $celeste;
 } 
 
 a{
-    text-decoration: none!important;
+    text-decoration: none !important;
 }

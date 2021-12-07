@@ -282,6 +282,7 @@ h1 {
 
 header {
   background-image: url(../img/ladrillos.jpg);
+  margin-bottom: 150px;
 }
 
 /* MOBILE STYLES */
@@ -297,6 +298,37 @@ header {
     margin-top: 100px;
   }
 }
+/* INDEX */
+.navegacion {
+  margin-top: 150px;
+}
+
+.cartel-i {
+  border: solid #A738D5 2px;
+  padding: 20px;
+  margin: 0 10px 0 10px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px 1px #fff, 0 0 10px 5px #A738D5, 0 0 15px 8px #A738D5;
+  /* outer cyan */
+}
+
+.cartel-i:hover {
+  border: solid 3px #A738D5;
+  box-shadow: 0 0 10px 3px #fff, 0 0 20px 10px #A738D5, 0 0 30px 17px #A738D5;
+  /* outer cyan */
+  color: #01A0B6;
+  text-shadow: 0 0 7px #fff, 0 0 20px #fff, 0 0 42px #01A0B6, 0 0 82px #01A0B6, 0 0 92px #01A0B6, 0 0 102px #01A0B6, 0 0 151px #01A0B6;
+}
+
+.card-nosotros {
+  border: solid 2px #FF8B00;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px 1px #fff, 0 0 10px 5px #FF8B00, 0 0 15px 8px #FF8B00;
+  /* outer cyan */
+  margin-bottom: 100px;
+}
+
 /* MOBILE STYLES */
 @media only screen and (max-width: 451px) {
   .cartel-info {
@@ -410,8 +442,12 @@ h2 {
 
 p {
   font-family: "Nunito";
-  font-size: 14px;
+  font-size: 15px;
   color: #01A0B6;
+}
+
+a {
+  text-decoration: none !important;
 }
 
 /*# sourceMappingURL=style.css.map */

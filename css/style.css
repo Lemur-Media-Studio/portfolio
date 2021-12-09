@@ -343,6 +343,13 @@ header {
   .cartel-info {
     height: 200px;
   }
+
+  .cartel-i {
+    font-size: 30px !important;
+    width: 60% !important;
+    text-align: center !important;
+    margin: 0 auto 0 auto;
+  }
 }
 .texto-aboutus {
   text-align: justify;

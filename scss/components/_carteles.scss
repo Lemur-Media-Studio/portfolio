@@ -8,27 +8,24 @@
 }
 
 .cartel-i{
-    color: $celeste !important;
+    color: $violeta !important;
     border: solid $violeta 2px;
     padding: 20px;
     margin: 0 10px 0 10px;
     border-radius: 4px;
     box-shadow:
     0 0 5px 1px #fff,
-    /* inner white */
     0 0 10px 5px $violeta,
-    /* middle magenta */
     0 0 15px 8px $violeta;
-/* outer cyan */
 }
 
 .cartel-i:hover{
     border: solid 3px $violeta;
     box-shadow:
-    0 0 10px 3px #fff,   /* inner white  */
-    0 0 20px 10px $violeta,  /* middle magenta  */
-    0 0 30px 17px $violeta;  /* outer cyan */ ;
-    color: $celeste;
+    0 0 10px 3px #fff,
+    0 0 20px 10px $violeta,
+    0 0 30px 17px $violeta;
+    color: $celeste !important;
     text-shadow:
     0 0 7px #fff,
     0 0 20px #fff,

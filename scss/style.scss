@@ -19,6 +19,7 @@ body {
 @import "./components/agencia";
 @import "./components/redes";
 @import "./base/modals";
+@import "./components/contacto";
 
 h2{
     font-family: "Nunito";
@@ -40,4 +41,9 @@ p{
 
 a{
     text-decoration: none !important;
+}
+
+ul{
+    list-style: none!important;
+    margin-left: -30px;
 }

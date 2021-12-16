@@ -65,6 +65,10 @@ body {
   .mobile-container {
     display: none;
   }
+
+  .card-desktop {
+    display: none;
+  }
 }
 /* ------------------------------------------------------------------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------------------------- */
@@ -114,6 +118,10 @@ body {
   .img-how-mobile {
     display: none;
   }
+
+  .card-desktop {
+    display: none;
+  }
 }
 /* DESKTOP STYLES */
 @media only screen and (min-width: 1025px) and (max-width: 2400px) {
@@ -136,6 +144,10 @@ body {
 
   .flecha-neon {
     float: right !important;
+  }
+
+  .card-mobile {
+    display: none;
   }
 }
 .margin-150 {

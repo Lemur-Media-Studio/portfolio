@@ -57,6 +57,10 @@
     .mobile-container {
         display: none;
     }
+
+    .card-desktop {
+        display: none;
+    }
 }
 
 /* ------------------------------------------------------------------------------------------------------------- */
@@ -108,6 +112,10 @@
     .img-how-mobile {
         display: none;
     }
+
+    .card-desktop {
+        display: none;
+    }
 }
 
 /* DESKTOP STYLES */
@@ -131,5 +139,9 @@
 
     .flecha-neon {
         float: right !important;
+    }
+
+    .card-mobile {
+        display: none;
     }
 }

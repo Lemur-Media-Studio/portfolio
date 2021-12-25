@@ -275,6 +275,7 @@ h1 {
   font-family: "Neon";
   src: url(../fonts/NEONLEDLight.ttf) format("woff");
 }
+/* BOTON MDR */
 .boton-modal {
   background-color: transparent !important;
   border: solid 2px;
@@ -292,6 +293,27 @@ h1 {
   /* outer cyan */
   color: #01A0B6;
   text-shadow: 0 0 7px #fff, 0 0 20px #fff, 0 0 42px #01A0B6, 0 0 82px #01A0B6, 0 0 92px #01A0B6, 0 0 102px #01A0B6, 0 0 151px #01A0B6;
+}
+
+/* BOTON URI */
+.boton-inicio-nuevo {
+  background-color: transparent !important;
+  font-size: 25px;
+  font-family: "Nunito";
+  box-shadow: 0 0 5px 1px #fff, 0 0 7px 3px #A738D5, 0 0 10px 5px #A738D5;
+  /* outer cyan */
+}
+
+.boton-inicio-nuevo a {
+  color: #A738D5 !important;
+}
+
+.boton-inicio-nuevo:hover {
+  color: #01A0B6 !important;
+  border: solid 3px #A738D5;
+  box-shadow: 0 0 8px 3px #fff, 0 0 15px 7px #A738D5, 0 0 20px 10px #A738D5;
+  /* outer cyan */
+  text-shadow: 0 0 7px #fff, 0 0 20px #fff, 0 0 42px #01A0B6;
 }
 
 header {
@@ -501,6 +523,36 @@ header {
   border: solid #A738D5 2px;
   border-radius: 4px;
   box-shadow: 0 0 5px 1px #fff, 0 0 10px 5px #A738D5, 0 0 15px 8px #A738D5;
+}
+
+.input-contacto {
+  background-color: transparent !important;
+  color: #01A0B6 !important;
+}
+
+.input-contacto::placeholder {
+  color: #01A0B6 !important;
+}
+
+.opciones-box-input {
+  background-color: black !important;
+  color: #01A0B6 !important;
+}
+
+.boton-contacto {
+  display: block !important;
+  margin: auto !important;
+  font-size: 20px !important;
+}
+
+.far {
+  font-size: 50px;
+  color: #A738D5 !important;
+}
+
+.far:active {
+  color: #01A0B6 !important;
+  text-shadow: 0 0 7px #fff, 0 0 20px #fff, 0 0 42px #01A0B6, 0 0 82px #01A0B6, 0 0 92px #01A0B6, 0 0 102px #01A0B6, 0 0 151px #01A0B6;
 }
 
 @media only screen and (max-width: 451px) {

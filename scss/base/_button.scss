@@ -1,3 +1,5 @@
+/* BOTON MDR */
+
 .boton-modal {
     background-color: transparent !important;
     border: solid 2px;
@@ -34,3 +36,33 @@
     0 0 102px $celeste,
     0 0 151px $celeste; 
 } 
+
+
+/* BOTON URI */
+
+.boton-inicio-nuevo {
+    background-color: transparent !important;
+    font-size: 25px;
+    font-family: "Nunito";
+    box-shadow:
+    0 0 5px 1px #fff,  /* inner white */
+    0 0 7px 3px $violeta, /* middle magenta */
+    0 0 10px 5px $violeta; /* outer cyan */;
+}
+
+.boton-inicio-nuevo a {
+    color: $violeta !important;
+}
+
+.boton-inicio-nuevo:hover{
+    color: $celeste !important;
+    border: solid 3px $violeta;
+    box-shadow:
+    0 0 8px 3px #fff,   /* inner white  */
+    0 0 15px 7px $violeta,  /* middle magenta  */
+    0 0 20px 10px $violeta;  /* outer cyan */ ;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 20px #fff,
+    0 0 42px $celeste;
+}

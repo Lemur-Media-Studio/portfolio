@@ -18,6 +18,43 @@
     0 0 15px 8px $violeta;
 }
 
+.input-contacto {
+    background-color: transparent !important;
+    color: $celeste !important;
+}
+
+.input-contacto::placeholder {
+    color: $celeste !important;
+}
+
+.opciones-box-input {
+    background-color: black !important;
+    color: $celeste !important;
+}
+
+.boton-contacto {
+    display: block !important;
+    margin: auto !important;
+    font-size: 20px !important;
+}
+
+.far {
+    font-size: 50px;
+    color: $violeta !important;
+}
+
+.far:active {
+    color: $celeste !important;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 20px #fff,
+    0 0 42px $celeste,
+    0 0 82px $celeste,
+    0 0 92px $celeste,
+    0 0 102px $celeste,
+    0 0 151px $celeste;
+}
+
 @media only screen and (max-width: 451px) {
  .contacto{
      width: 80% !important;

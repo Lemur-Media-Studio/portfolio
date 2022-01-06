@@ -356,16 +356,23 @@ header {
   color: #A738D5 !important;
   border: solid #A738D5 2px;
   padding: 20px;
-  margin: 0 10px 0 10px;
+  margin: 0 25px 25px 25px;
   border-radius: 4px;
   box-shadow: 0 0 5px 1px #fff, 0 0 10px 5px #A738D5, 0 0 15px 8px #A738D5;
 }
 
 .cartel-i:hover {
+  background-color: transparent !important;
   border: solid 3px #A738D5;
   box-shadow: 0 0 10px 3px #fff, 0 0 20px 10px #A738D5, 0 0 30px 17px #A738D5;
   color: #01A0B6 !important;
-  text-shadow: 0 0 7px #fff, 0 0 20px #fff, 0 0 42px #01A0B6, 0 0 82px #01A0B6, 0 0 92px #01A0B6, 0 0 102px #01A0B6, 0 0 151px #01A0B6;
+  text-shadow: 0 0 15px #fff, 0 0 29px #fff, 0 0 32px #01A0B6, 0 0 52px #01A0B6;
+}
+
+.menu-index {
+  font-family: "Nunito";
+  font-size: 40px;
+  text-shadow: 0 0 22px #A738D5, 0 0 32px #A738D5;
 }
 
 .cartel-volver {
@@ -381,7 +388,14 @@ header {
   border: solid 3px #A738D5;
   box-shadow: 0 0 10px 3px #fff, 0 0 20px 10px #A738D5, 0 0 30px 17px #A738D5;
   color: #01A0B6 !important;
-  text-shadow: 0 0 7px #fff, 0 0 20px #fff, 0 0 42px #01A0B6, 0 0 82px #01A0B6, 0 0 92px #01A0B6, 0 0 102px #01A0B6, 0 0 151px #01A0B6;
+  /*     text-shadow:
+      0 0 7px #fff,
+      0 0 20px #fff,
+      0 0 42px $celeste,
+      0 0 82px $celeste,
+      0 0 92px $celeste,
+      0 0 102px $celeste,
+      0 0 151px $celeste; */
 }
 
 .card-nosotros {
@@ -399,8 +413,15 @@ header {
     height: 200px;
   }
 
+  .bienvenidos-mobile {
+    font-size: 40px;
+  }
+
+  .menu-index {
+    font-size: 25px;
+  }
+
   .cartel-i {
-    font-size: 30px !important;
     width: 60% !important;
     text-align: center !important;
     margin: 0 auto 0 auto;
@@ -413,8 +434,32 @@ header {
     margin: 0 auto 0 auto;
   }
 }
+@media only screen and (min-width: 452px) and (max-width: 1024px) {
+  .bienvenidos-mobile {
+    font-size: 100px;
+  }
+
+  .menu-tablet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .cartel-i {
+    margin: 25px 25px 25px 25px !important;
+  }
+}
 .texto-aboutus {
   text-align: justify;
+}
+
+.titulo-agencia {
+  font-size: 35px;
+  color: white;
+  text-shadow: 0 0 7px #A738D5, 0 0 10px #A738D5, 0 0 22px #A738D5;
+  font-family: "Nunito";
 }
 
 .card-agencia {
@@ -537,7 +582,7 @@ header {
 }
 
 .i-contacto {
-  font-size: 30px;
+  font-size: 25px;
   margin-right: 15px;
 }
 
@@ -548,7 +593,7 @@ header {
 }
 
 .seccion-contacto-form {
-  border: solid #A738D5 2px;
+  border: solid #A738D5 3px;
   border-radius: 4px;
   box-shadow: 0 0 5px 1px #fff, 0 0 10px 5px #A738D5, 0 0 15px 8px #A738D5;
 }
@@ -574,7 +619,7 @@ header {
 }
 
 .far {
-  font-size: 50px;
+  font-size: 45px;
   color: #A738D5 !important;
 }
 
@@ -587,12 +632,42 @@ header {
   .contacto {
     width: 80% !important;
   }
+
+  .i-contacto {
+    font-size: 19px;
+    margin-right: 8px;
+  }
+
+  .text-contacto {
+    font-family: "Nunito";
+    font-size: 13px;
+    color: #01A0B6;
+  }
+
+  .seccion-contacto-form {
+    border: solid #A738D5 8px;
+  }
+}
+@media only screen and (min-width: 452px) and (max-width: 1024px) {
+  .titulo-agencia {
+    font-size: 25px;
+  }
+
+  .i-contacto {
+    font-size: 18px;
+    margin-right: 8px;
+  }
+
+  .text-contacto {
+    font-family: "Nunito";
+    font-size: 12px;
+    color: #01A0B6;
+  }
 }
 h2 {
   font-family: "Nunito";
   font-size: 40px;
-  color: #A738D5;
-  text-shadow: 0 0 42px #A738D5, 0 0 82px #A738D5, 0 0 92px #A738D5, 0 0 102px #A738D5, 0 0 151px #A738D5;
+  text-shadow: 0 0 22px #A738D5, 0 0 32px #A738D5;
 }
 
 p {

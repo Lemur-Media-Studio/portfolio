@@ -11,7 +11,7 @@
     color: $violeta !important;
     border: solid $violeta 2px;
     padding: 20px;
-    margin: 0 10px 0 10px;
+    margin: 0 25px 25px 25px;
     border-radius: 4px;
     box-shadow:
     0 0 5px 1px #fff,
@@ -20,6 +20,7 @@
 }
 
 .cartel-i:hover{
+    background-color: transparent !important;
     border: solid 3px $violeta;
     box-shadow:
     0 0 10px 3px #fff,
@@ -27,13 +28,18 @@
     0 0 30px 17px $violeta;
     color: $celeste !important;
     text-shadow:
-    0 0 7px #fff,
-    0 0 20px #fff,
-    0 0 42px $celeste,
-    0 0 82px $celeste,
-    0 0 92px $celeste,
-    0 0 102px $celeste,
-    0 0 151px $celeste; 
+    0 0 15px #fff,
+    0 0 29px #fff,
+    0 0 32px $celeste,
+    0 0 52px $celeste;
+}
+
+.menu-index {
+    font-family: "Nunito";
+    font-size: 40px;
+    text-shadow:
+    0 0 22px $violeta,
+    0 0 32px $violeta;
 }
 
 .cartel-volver{
@@ -55,14 +61,14 @@
     0 0 20px 10px $violeta,
     0 0 30px 17px $violeta;
     color: $celeste !important;
-    text-shadow:
+/*     text-shadow:
     0 0 7px #fff,
     0 0 20px #fff,
     0 0 42px $celeste,
     0 0 82px $celeste,
     0 0 92px $celeste,
     0 0 102px $celeste,
-    0 0 151px $celeste; 
+    0 0 151px $celeste; */ 
 }
 
 .card-nosotros{
@@ -85,8 +91,15 @@ margin-bottom: 100px;
         height: 200px;
     }
 
+    .bienvenidos-mobile {
+        font-size: 40px;
+    }
+
+    .menu-index {
+        font-size: 25px;
+    }
+
     .cartel-i{
-        font-size: 30px !important;
         width: 60% !important;
         text-align: center !important;
         margin: 0 auto 0 auto;
@@ -98,6 +111,27 @@ margin-bottom: 100px;
         text-align: center !important;
         margin: 0 auto 0 auto;
     }
+}
+
+@media only screen and (min-width: 452px) and (max-width: 1024px) {
+
+    .bienvenidos-mobile {
+        font-size: 100px;
+    }
+
+    .menu-tablet {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+
+    .cartel-i {
+        margin: 25px 25px 25px 25px !important;
+    }
+
+
 }
       
     

@@ -388,14 +388,7 @@ header {
   border: solid 3px #A738D5;
   box-shadow: 0 0 10px 3px #fff, 0 0 20px 10px #A738D5, 0 0 30px 17px #A738D5;
   color: #01A0B6 !important;
-  /*     text-shadow:
-      0 0 7px #fff,
-      0 0 20px #fff,
-      0 0 42px $celeste,
-      0 0 82px $celeste,
-      0 0 92px $celeste,
-      0 0 102px $celeste,
-      0 0 151px $celeste; */
+  text-shadow: 0 0 7px #fff, 0 0 20px #fff, 0 0 42px #01A0B6, 0 0 82px #01A0B6, 0 0 92px #01A0B6, 0 0 102px #01A0B6, 0 0 151px #01A0B6;
 }
 
 .card-nosotros {

@@ -5,6 +5,10 @@
 }
 
 body {
+  background-color: #000;
+}
+
+main {
   background-image: url(../img/ladrillos.jpg);
 }
 
@@ -650,6 +654,13 @@ header {
     color: #01A0B6;
   }
 }
+.loader {
+  position: absolute !important;
+  top: 40% !important;
+  left: 45% !important;
+  background-color: black !important;
+}
+
 h2 {
   font-family: "Nunito";
   font-size: 40px;

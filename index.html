@@ -43,68 +43,76 @@
 </head>
 
 <body>
-  <header class="text-center header">
-    <img src="img/Lemur-1.png" alt="Logo Lemur Media Studio" height="600" class="logo-lemur">
-    <h1 class="mt-0 bienvenidos-mobile">bienvenidos</h1>
-  </header>
+  <!-- LOADER -->
+  <div class="loader text-center">
+    <img src="img/loader.gif" alt="Imagen de carga" height="150">
+  </div>
 
-<!--   <section class="container text-center d-flex align-items-center justify-content-center navegacion">
-    <div class="row d-flex justify-content-center">
-      <div class="col-md-3">
-        <a href="portfolio.html"><h2 class="cartel-i">PORTFOLIO</h2></a>
+  <!-- CUERPO -->
+  <main class="cuerpo" style="display: none;">
+    <header class="text-center header">
+      <img src="img/Lemur-1.png" alt="Logo Lemur Media Studio" height="600" class="logo-lemur">
+      <h1 class="mt-0 bienvenidos-mobile">bienvenidos</h1>
+    </header>
+
+  <!--   <section class="container text-center d-flex align-items-center justify-content-center navegacion">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-3">
+          <a href="portfolio.html"><h2 class="cartel-i">PORTFOLIO</h2></a>
+        </div>
+        <div class="col-md-3">
+          <a href="agencia.html"><h2 class="cartel-i mt-4 mt-md-0">AGENCIA</h2></a>
+        </div>
+        <div class="col-md-3">
+          <a href="nosotros.html"><h2 class="cartel-i mt-4 mt-md-0">NOSOTROS</h2></a>
+        </div>
+        <div class="col-md-3">
+          <a href="contacto.html"><h2 class="cartel-i mt-4 mt-md-0">CONTACTO</h2></a>
+        </div>
       </div>
-      <div class="col-md-3">
-        <a href="agencia.html"><h2 class="cartel-i mt-4 mt-md-0">AGENCIA</h2></a>
+    </section> --> 
+
+
+    <section class="container text-center menu-tablet align-items-center justify-content-center navegacion">
+      <a href="portfolio.html">
+        <button type="button" class="btn cartel-i menu-index btn-outline-info pt-4">
+          PORTFOLIO
+        </button>
+      </a>
+      <a href="agencia.html">
+        <button type="button" class="btn cartel-i menu-index btn-outline-info pt-4">
+          AGENCIA
+        </button>
+      </a>
+      <a href="nosotros.html">
+        <button type="button" class="btn cartel-i menu-index btn-outline-info pt-4">
+          NOSOTROS
+        </button>
+      </a>
+      <a href="contacto.html">
+        <button type="button" class="btn cartel-i menu-index btn-outline-info pt-4">
+          CONTACTO
+        </button>
+      </a>
+    </section>
+
+
+
+
+    <!-- REDES -->
+    <aside class="d-flex d-sm-flex d-lg-block text-xl-end text-lg-end mx-4 redes">
+      <div class="colorIg">
+        <a href="https://www.instagram.com/lemurmediastudio/"><i class="fab fa-instagram-square fa-2x"></i></a>
       </div>
-      <div class="col-md-3">
-        <a href="nosotros.html"><h2 class="cartel-i mt-4 mt-md-0">NOSOTROS</h2></a>
+      <div class="colorGh mx-2 mx-lg-0">
+        <a href="https://github.com/Lemur-Media-Studio"><i class="fab fa-github-square fa-2x"></i></a>
       </div>
-      <div class="col-md-3">
-        <a href="contacto.html"><h2 class="cartel-i mt-4 mt-md-0">CONTACTO</h2></a>
+      <div class="colorLi">
+        <a href="https://www.linkedin.com/company/lemur-media-studio/?viewAsMember=true"><i
+            class="fab fa-linkedin fa-2x"></i></a>
       </div>
-    </div>
-  </section> --> 
-
-
-  <section class="container text-center menu-tablet align-items-center justify-content-center navegacion">
-    <a href="portfolio.html">
-      <button type="button" class="btn cartel-i menu-index btn-outline-info pt-4">
-        PORTFOLIO
-      </button>
-    </a>
-    <a href="agencia.html">
-      <button type="button" class="btn cartel-i menu-index btn-outline-info pt-4">
-        AGENCIA
-      </button>
-    </a>
-    <a href="nosotros.html">
-      <button type="button" class="btn cartel-i menu-index btn-outline-info pt-4">
-        NOSOTROS
-      </button>
-    </a>
-    <a href="contacto.html">
-      <button type="button" class="btn cartel-i menu-index btn-outline-info pt-4">
-        CONTACTO
-      </button>
-    </a>
-  </section>
-
-
-
-
-  <!-- REDES -->
-  <aside class="d-flex d-sm-flex d-lg-block text-xl-end text-lg-end mx-4 redes">
-    <div class="colorIg">
-      <a href="https://www.instagram.com/lemurmediastudio/"><i class="fab fa-instagram-square fa-2x"></i></a>
-    </div>
-    <div class="colorGh mx-2 mx-lg-0">
-      <a href="https://github.com/Lemur-Media-Studio"><i class="fab fa-github-square fa-2x"></i></a>
-    </div>
-    <div class="colorLi">
-      <a href="https://www.linkedin.com/company/lemur-media-studio/?viewAsMember=true"><i
-          class="fab fa-linkedin fa-2x"></i></a>
-    </div>
-  </aside>
+    </aside>
+</main>
 
 
 
@@ -121,18 +129,23 @@
 
 
 
-
-
+  <!-- NUESTROS SCRIPTS -->
+  <script src="js/main.js"></script>
+  <!-- AOS -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
+  <!-- JQUERY -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- BOOTSTRAP -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
   </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
   </script>
+
 </body>
 
 </html>

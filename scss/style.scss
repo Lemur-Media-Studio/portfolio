@@ -5,6 +5,10 @@
 }
 
 body {
+    background-color: #000;
+}
+
+main {
     background-image: url(../img/ladrillos.jpg);
 }
 
@@ -20,6 +24,7 @@ body {
 @import "./components/redes";
 @import "./base/modals";
 @import "./components/contacto";
+@import "./components/loader";
 
 h2{
     font-family: "Nunito";

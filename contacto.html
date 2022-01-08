@@ -43,116 +43,124 @@
 </head>
 
 <body>
-  <header class="text-center header">
-    <img src="img/Lemur-1.png" alt="Logo Lemur Media Studio" height="600" class="logo-lemur">
-    <h1 class="mt-0">CONTACTO</h1>
-  </header>
+    <!-- LOADER -->
+    <div class="loader text-center">
+      <img src="img/loader.gif" alt="Imagen de carga" height="150">
+    </div>
 
-  <!-- MEDIOS DE CONTACTO -->
-  <section class="container mt-5 w-50 contacto">
-    <div class="d-md-flex position-relative card-nosotros">
-      <img src="img/Lemur-1.png" class="flex-shrink-0 me-3 d-none d-md-block" alt="Logo Lemur Media Studio"
-        height="120">
-      <div class="d-block d-md-none text-center mb-2"><img src="img/Lemur-1.png" alt="Logo Lemur Media Studio"
-          height="140"></div>
-      <div class="text-center text-md-left">
-        <h2 class="mt-0 text-center text-md-start mb-3">LEMUR MEDIA STUDIO</h2>
-        <div class="d-flex align-items-center text-contacto">
-          <i class="fas fa-envelope-square colorIg  i-contacto"></i>
-          lemurmediastudio@gmail.com
-        </div>
-        <div class="d-flex text-contacto mt-3">
-          <i class="fas fa-phone-square colorIg i-contacto"></i>
-          <ul>
-            <li class="text-contacto">(+54) 91150241905</li>
-            <li class="text-contacto">(+49) 17682088746</li>
-            <li class="text-contacto">(+54) 91157343042</li>
-            <li class="text-contacto">(+54) 91165627241</li>
-          </ul>
+  <!-- CUERPO -->
+  <main class="cuerpo" style="display: none;">
+    <header class="text-center header">
+      <img src="img/Lemur-1.png" alt="Logo Lemur Media Studio" height="600" class="logo-lemur">
+      <h1 class="mt-0">CONTACTO</h1>
+    </header>
+
+    <!-- MEDIOS DE CONTACTO -->
+    <section class="container mt-5 w-50 contacto">
+      <div class="d-md-flex position-relative card-nosotros">
+        <img src="img/Lemur-1.png" class="flex-shrink-0 me-3 d-none d-md-block" alt="Logo Lemur Media Studio"
+          height="120">
+        <div class="d-block d-md-none text-center mb-2"><img src="img/Lemur-1.png" alt="Logo Lemur Media Studio"
+            height="140"></div>
+        <div class="text-center text-md-left">
+          <h2 class="mt-0 text-center text-md-start mb-3">LEMUR MEDIA STUDIO</h2>
+          <div class="d-flex align-items-center text-contacto">
+            <i class="fas fa-envelope-square colorIg  i-contacto"></i>
+            lemurmediastudio@gmail.com
+          </div>
+          <div class="d-flex text-contacto mt-3">
+            <i class="fas fa-phone-square colorIg i-contacto"></i>
+            <ul>
+              <li class="text-contacto">(+54) 91150241905</li>
+              <li class="text-contacto">(+49) 17682088746</li>
+              <li class="text-contacto">(+54) 91157343042</li>
+              <li class="text-contacto">(+54) 91165627241</li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
+
+    <!-- FORMULARIO DE CONTACTO -->
+    <section class="container seccion-contacto-form pt-3">
+    <!-- titulo form -->
+      <h2 class="mt-0 text-center text-md-start mb-3">¡Envíanos tu feedback!</h2>
+
+      <div class="mb-3 pb-2">
+        <label class="form-label titulo-card-agencia text-center">¿Cómo calificarías nuestro servicio?</label>
+        <div class="mt-2" id="calificacion">
+          <a href=""><i class="far fa-grin-stars"></i></a>
+          <a href=""><i class="far mx-2 fa-smile"></i></a>
+          <a href=""><i class="far fa-meh"></i></a>
+          <a href=""><i class="far mx-2 fa-frown"></i></a>
+          <a href=""><i class="far fa-dizzy"></i></a>
+        </div>
+      </div>
+
+      <form class="was-validated">
+        <div class="mb-3">
+          <label for="validationTextarea" class="form-label titulo-card-agencia">Dejanos tu opinión aquí abajo para que
+            sigamos mejorando nuestros servicios</label>
+          <textarea class="form-control is-invalid input-contacto" id="validationTextarea"
+            placeholder="Mensaje de ejemplo." required></textarea>
+          <div class="invalid-feedback">
+            Por favor inserte un mensaje en el área de texto.
+          </div>
+        </div>
+
+        <!--        <div class="mb-3">
+          <select class="form-select input-contacto" required aria-label="select example">
+            <option class="opciones-box-input" value="">¿Cómo calificarías nuestro servicio?</option>
+            <option class="opciones-box-input" value="E">Excelente (9-10)</option>
+            <option class="opciones-box-input" value="MB">Muy bueno (7-8)</option>
+            <option class="opciones-box-input" value="B">Bueno (5-6)</option>
+            <option class="opciones-box-input" value="R">Regular (3-4)</option>
+            <option class="opciones-box-input" value="NM">Necesita mejorar (1-2)</option>
+          </select>
+          <div class="invalid-feedback">Porfavor seleccione una opción para valorarnos.</div>
+        </div>  -->
+
+        <div class="mb-3 pt-1">
+          <button class="btn boton-modal boton-contacto btn-info mt-3" type="submit">Enviar</button>
+        </div>
+      </form>
+    </section>
+
+
+    <!-- volver al inicio (uri) -->
+
+    <!--   <section class="container mt-5 pt-5 text-center">
+      <button type="button" class="btn btn-info boton-inicio-nuevo"><a href="index.html">VOLVER AL INICIO</a></button>
+    </section> -->
+
+
+
+    <!-- VOLVER AL INICIO (mdr) -->
+    <section class="container text-center align-items-center justify-content-center nav-agencia">
+      <div class="d-flex justify-content-center">
+          <div>
+              <a href="index.html">
+                  <h2 class="cartel-volver">Volver al inicio</h2>
+              </a>
+          </div>
+      </div>
   </section>
 
-  <!-- FORMULARIO DE CONTACTO -->
-  <section class="container seccion-contacto-form pt-3">
-  <!-- titulo form -->
-    <h2 class="mt-0 text-center text-md-start mb-3">¡Envíanos tu feedback!</h2>
 
-    <div class="mb-3 pb-2">
-      <label class="form-label titulo-card-agencia text-center">¿Cómo calificarías nuestro servicio?</label>
-      <div class="mt-2" id="calificacion">
-        <a href=""><i class="far fa-grin-stars"></i></a>
-        <a href=""><i class="far mx-2 fa-smile"></i></a>
-        <a href=""><i class="far fa-meh"></i></a>
-        <a href=""><i class="far mx-2 fa-frown"></i></a>
-        <a href=""><i class="far fa-dizzy"></i></a>
+    <!-- REDES -->
+    <aside class="d-flex d-sm-flex d-lg-block text-xl-end text-lg-end mx-4 redes">
+      <div class="colorIg">
+        <a href="https://www.instagram.com/lemurmediastudio/"><i class="fab fa-instagram-square fa-2x"></i></a>
       </div>
-    </div>
-
-    <form class="was-validated">
-      <div class="mb-3">
-        <label for="validationTextarea" class="form-label titulo-card-agencia">Dejanos tu opinión aquí abajo para que
-          sigamos mejorando nuestros servicios</label>
-        <textarea class="form-control is-invalid input-contacto" id="validationTextarea"
-          placeholder="Mensaje de ejemplo." required></textarea>
-        <div class="invalid-feedback">
-          Por favor inserte un mensaje en el área de texto.
-        </div>
+      <div class="colorGh mx-2 mx-lg-0">
+        <a href="https://github.com/Lemur-Media-Studio"><i class="fab fa-github-square fa-2x"></i></a>
       </div>
-
-      <!--        <div class="mb-3">
-        <select class="form-select input-contacto" required aria-label="select example">
-          <option class="opciones-box-input" value="">¿Cómo calificarías nuestro servicio?</option>
-          <option class="opciones-box-input" value="E">Excelente (9-10)</option>
-          <option class="opciones-box-input" value="MB">Muy bueno (7-8)</option>
-          <option class="opciones-box-input" value="B">Bueno (5-6)</option>
-          <option class="opciones-box-input" value="R">Regular (3-4)</option>
-          <option class="opciones-box-input" value="NM">Necesita mejorar (1-2)</option>
-        </select>
-        <div class="invalid-feedback">Porfavor seleccione una opción para valorarnos.</div>
-      </div>  -->
-
-      <div class="mb-3 pt-1">
-        <button class="btn boton-modal boton-contacto btn-info mt-3" type="submit">Enviar</button>
+      <div class="colorLi">
+        <a href="https://www.linkedin.com/company/lemur-media-studio/?viewAsMember=true"><i
+            class="fab fa-linkedin fa-2x"></i></a>
       </div>
-    </form>
-  </section>
-
-
-  <!-- volver al inicio (uri) -->
-
-  <!--   <section class="container mt-5 pt-5 text-center">
-    <button type="button" class="btn btn-info boton-inicio-nuevo"><a href="index.html">VOLVER AL INICIO</a></button>
-  </section> -->
-
-
-
-  <!-- VOLVER AL INICIO (mdr) -->
-  <section class="container text-center align-items-center justify-content-center nav-agencia">
-    <div class="d-flex justify-content-center">
-        <div>
-            <a href="index.html">
-                <h2 class="cartel-volver">Volver al inicio</h2>
-            </a>
-        </div>
-    </div>
-</section>
-
-
-  <!-- REDES -->
-  <aside class="d-flex d-sm-flex d-lg-block text-xl-end text-lg-end mx-4 redes">
-    <div class="colorIg">
-      <a href="https://www.instagram.com/lemurmediastudio/"><i class="fab fa-instagram-square fa-2x"></i></a>
-    </div>
-    <div class="colorGh mx-2 mx-lg-0">
-      <a href="https://github.com/Lemur-Media-Studio"><i class="fab fa-github-square fa-2x"></i></a>
-    </div>
-    <div class="colorLi">
-      <a href="https://www.linkedin.com/company/lemur-media-studio/?viewAsMember=true"><i
-          class="fab fa-linkedin fa-2x"></i></a>
-    </div>
-  </aside>
+    </aside>
+  </main>
 
 
 
@@ -169,12 +177,16 @@
 
 
 
-
+  <!-- NUESTROS SCRIPTS -->
   <script src="js/main.js"></script>
+  <!-- AOS -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
+  <!-- JQUERY -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- BOOTSTRAP -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
   </script>

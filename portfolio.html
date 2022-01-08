@@ -43,542 +43,562 @@
 </head>
 
 <body>
-  <header class="text-center header">
-    <img src="img/Lemur-1.png" alt="Logo Lemur Media Studio" height="600" class="logo-lemur">
-    <h1 class="mt-3">portfolio</h1>
-  </header>
-
-  <!-- CARTELES INFO -->
-  <div class="d-flex justify-content-center margin-150">
-    <div>
-      <img src="img/info.png" height="300" alt="Cartel con información" class="cartel-info">
-    </div>
+  <!-- LOADER -->
+  <div class="loader text-center">
+    <img src="img/loader.gif" alt="Imagen de carga" height="150">
   </div>
 
-  <div class="d-flex justify-content-center flex-wrap">
-    <div>
-      <img src="img/info1.png" height="300" alt="Cartel con información" class="cartel-info">
-    </div>
-    <div>
-      <img src="img/info2.png" height="300" alt="Cartel con información" class="cartel-info">
-    </div>
-  </div>
+  <!-- CUERPO -->
+  <main class="cuerpo" style="display: none;">
+    <header class="text-center header">
+      <img src="img/Lemur-1.png" alt="Logo Lemur Media Studio" height="600" class="logo-lemur">
+      <h1 class="mt-3">portfolio</h1>
+    </header>
 
-
-  <!-- SECCION ONE TO ONE -->
-  <section class="container-fluid align-items-center row mx-auto pt-5 mb-5">
-    <div class="imagen-flecha-neon col"><img src="img/lineas.png" height="800" alt="Flechas de neon"></div>
-    <div class="col">
-      <img src="img/onetoone.png" class="img-mobile mt-3 pb-3" alt="">
-      <h2 class="titulo-trabajos">ONE TO ONE</h2>
-      <div class="container-programas">
-        <img src="img/html5.png" class="programas-img" alt="Logo HTML5" height="40">
-        <img src="img/css3.png" class="programas-img" alt="Logo CSS3" height="40">
-        <img src="img/sass.png" class="programas-img" alt="Logo Sass" height="40">
-        <img src="img/bootstrap.png" class="programas-img" alt="Logo Bootstrap" height="40">
-        <img src="img/js.png" class="programas-img" alt="Logo JavaScript" height="40">
-        <img src="img/Jquery.webp" class="programas-img" alt="Logo jQuery" height="40">
-        <img src="img/firebase.png" class="programas-img" alt="Logo Firebase" height="40">
-      </div>
-      <p class="parrafo-trabajos mt-3">
-        Importante proyecto realizado para la empresa de courier estadounidense One to One Trade Consulting. Consistió
-        en
-        el diseño y desarrollo de un sistema de tracking, donde los clientes puedieran loguearse en el sistema y tener
-        conocimiento
-        del estado de su pedido a través del escaneo de un código QR. Así, hoy en día un cliente de One to One puede
-        saber si su
-        pedido ya fue despachado desde la central en Los Ángeles y dónde se encuentra con exactitud. A su vez se
-        desarrolló una
-        calculadora de envíos, con el fin de calcular cuánto es el valor final del servicio de courier según la
-        categoría del producto
-        comprado y su peso. Por otro lado, se diseñó y desarrolló una E-commerce a medida donde la compañía hoy ofrece
-        distintos cursos
-        principalmente de marketing. Se introdujo además un sistema de mailing, con el cual se le da una bienvenida a
-        los usuarios
-        y se les notifica cuando hay un cambio en el estado de sus compras. Finalmente, se concluyó el proyecto con el
-        desarrollo
-        de un blog donde hoy la compañía sube distitnos artículos de interés específico en su rama.
-      </p>
-      <!-- boton modal 1 -->
-      <button type="button" class="btn boton-modal btn-info mt-3" data-bs-toggle="modal" data-bs-target="#m1">
-        Ver más
-      </button>
-
-      <!-- Modal -->
-      <div class="modal fade" id="m1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-body">
-              <div class="mt-1 mb-3">
-                <h5 class="modal-title" id="exampleModalLabel">ONE TO ONE</h5>
-              </div>
-              <!-- carrousel -->
-              <div id="carru1" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="img/img-one-to-one/customers1.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-one-to-one/customers2.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-one-to-one/productos.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-one-to-one/admin-usuarios.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-one-to-one/admin-productos.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-one-to-one/calculadora.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-one-to-one/ecomm.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-one-to-one/blog.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-one-to-one/mail.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-one-to-one/tracking.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carru1" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carru1" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-              <div class="mt-3 mb-3">
-                <button type="button" class="btn boton-close-modal btn-info" data-bs-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="logo-trabajos col"><img src="img/onetoone.png" class="img-ipad" height="280" alt="Logo One to one">
-    </div>
-  </section>
-
-  <!-- SECCION INTER IBIZA -->
-  <section class="container-fluid align-items-center row mx-auto pt-5 mb-5">
-    <div class="mobile-container col"><img src="img/inter-escudo-sinfondo.png" class="img-ipad img-picatitas" height="280"
-      alt="Logo Inter Ibiza"></div>
-    <div class="col pt-3">
-      <img src="img/inter-escudo-sinfondo.png" class="img-mobile mt-3 pb-3" alt="">
-      <h2 class="titulo-trabajos">INTER IBIZA CD</h2>
-      <div class="container-programas">
-        <img src="img/html5.png" class="programas-img" alt="Logo HTML5" height="40">
-        <img src="img/css3.png" class="programas-img" alt="Logo CSS3" height="40">
-        <img src="img/sass.png" class="programas-img" alt="Logo Sass" height="40">
-        <img src="img/bootstrap.png" class="programas-img" alt="Logo Bootstrap" height="40">
-        <img src="img/js.png" class="programas-img" alt="Logo JavaScript" height="40">
-        <img src="img/Jquery.webp" class="programas-img" alt="Logo jQuery" height="40">
-      </div>
-      <p class="parrafo-trabajos mt-3">
-        Diseño y desarrollo personalizado del sitio web oficial del Inter Ibiza Club Deportivo, entidad deportiva
-        de Ibiza centrada en el fútbol profesional. Actualmente el club se encuentra en Tercera División RFEF. El
-        objetivo
-        principal consistió en visibilizar el rendimiento del equipo profesional de fútbol durante la temporada 2020/21,
-        y para ello
-        se mantuvo actualizada tanto la clasificación y el fixture con los resultados de los partidos y las principales
-        incidencias ocurridas
-        en ellos, como las noticias de la actualidad del club. Por otro lado, se dedicó un apartado para dar a conocer a
-        los miembros
-        de la Directiva, con nombres y cargos. Por último, se desarrolló una página de contacto indicando la dirección
-        del estadio y
-        los principales canales de contacto.
-      </p>
-      <!-- boton modal 2 -->
-      <button type="button" class="btn boton-modal btn-info mt-3" data-bs-toggle="modal" data-bs-target="#m2">
-        Ver más
-      </button>
-
-      <!-- Modal -->
-      <div class="modal fade" id="m2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-
-            <div class="modal-body">
-              <div class="mt-1 mb-3">
-                <h5 class="modal-title" id="exampleModalLabel">ONE TO ONE</h5>
-              </div>
-              <!-- carrousel -->
-              <div id="carru2" class="carousel slide" data-bs-ride="carouse1">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="img/img-inter-ibiza/inter-web-header.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-inter-ibiza/inter-fixture.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-inter-ibiza/grid-noticias-y-clasificacion-mini.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-inter-ibiza/noticia-principal.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-inter-ibiza/casificacion.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-inter-ibiza/hazte-socio.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-inter-ibiza/directiva.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-inter-ibiza/contacto.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-inter-ibiza/inter-web-footer.png" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carru2" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carru2" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-              <div class="mt-3 mb-3">
-                <button type="button" class="btn boton-close-modal btn-info" data-bs-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="logo-trabajos imagen-flecha-neon col"><img src="img/lineas-al-reves.png" class="flecha-neon" height="800" alt="Flechas de neon"></div>
-  </section>
-
-  <!-- SECCION GARRAHAN -->
-  <section class="container-fluid align-items-center row mx-auto pt-5 mb-5">
-    <div class="imagen-flecha-neon col"><img src="img/lineas.png" height="800" alt="Flechas de neon"></div>
-    <div class="col pt-3">
-      <!-- mobile -->
-      <img src="img/howtrainer.png" height="160" class="img-how-mobile mt-3 pb-3" alt="">
-      <h2 class="titulo-trabajos">HOW TRAINER</h2>
-      <div class="container-programas">
-        <img src="img/python.png" alt="Logo Python" height="40">
-        <img src="img/matplot.png" class="programas-img" alt="Logo Matplot" height="40">
-        <img src="img/pandas.png" class="programas-img" alt="Logo Pandas" height="40">
-      </div>
-      <p class="parrafo-trabajos mt-3">Aplicación de escritorio para tomar datos de usuarios y utilizarlos en 
-        entrenadores quirúrgicos. La idea principal de esta aplicación es graficar y medir tiempos en distintas
-        practicas y ejercicios quirúrgicos. Seguimos
-        actualizando la app teniendo en cuenta la experiencia y el feedback del usuario final. Actualmente, el Hospital
-        Garrahan utiliza este software.
-      </p>
-      <!-- boton modal 3 -->
-      <button type="button" class="btn boton-modal btn-info mt-3" data-bs-toggle="modal" data-bs-target="#m3">
-        Ver más
-      </button>
-
-      <!-- Modal -->
-      <div class="modal fade" id="m3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-body">
-              <div class="mt-1 mb-3">
-                <h5 class="modal-title" id="exampleModalLabel">ONE TO ONE</h5>
-              </div>
-              <!-- carrousel -->
-              <div id="carru3" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="img/how-trainer/aplicacion.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carru3" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carru3" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-              <div class="mt-3 mb-3">
-                <button type="button" class="btn boton-close-modal btn-info" data-bs-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="logo-trabajos col"><img src="img/howtrainer.png" class="img-how-ipad" height="100" alt="Logo Garrahan">
-    </div>
-  </section>
-
-  <!-- SECCION CEREALS ONLINE -->
-  <section class="container-fluid align-items-center row mx-auto pt-5 mb-5">
-    <div class="mobile-container col"><img src="img/cereals.png" class="img-ipad img-picatitas" height="280" alt="Logo Cereals Online"></div>
-    <div class="col pt-3">
-      <img src="img/cereals.png" height="160" class="img-mobile mt-3 pb-3" alt="">
-      <h2 class="titulo-trabajos">CEREALS ONLINE</h2>
-      <div class="container-programas">
-        <img src="img/html5.png" class="programas-img" alt="Logo HTML5" height="40">
-        <img src="img/css3.png" class="programas-img" alt="Logo CSS3" height="40">
-        <img src="img/sass.png" class="programas-img" alt="Logo Sass" height="40">
-        <img src="img/bootstrap.png" class="programas-img" alt="Logo Bootstrap" height="40">
-        <img src="img/Jquery.webp" class="programas-img" alt="Logo jQuery" height="40">
-        <img src="img/SVG_Logo.svg.png" class="programas-img" alt="Logo SVG" height="40">
-      </div>
-      <p class="parrafo-trabajos mt-3">Diseño y desarrollo de una web para una compañía ceralera de España.
-        Se realizaron trabajos con filtros que indicaran la capacidad de carga de distintos buques.
-        Esta carga se determinó utilizando un SVG y realizando animaciones con CSS, JavaScript y jQuery.
-      </p>
-      <!-- boton modal 4 -->
-      <button type="button" class="btn boton-modal btn-info mt-3" data-bs-toggle="modal" data-bs-target="#m4">
-        Ver más
-      </button>
-
-      <!-- Modal -->
-      <div class="modal fade" id="m4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-body">
-              <div class="mt-1 mb-3">
-                <h5 class="modal-title" id="exampleModalLabel">ONE TO ONE</h5>
-              </div>
-              <!-- carrousel -->
-              <div id="carru4" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="img/img-cereals/header-cereals.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-cereals/alimentos.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-cereals/barcos-alimentos.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-cereals/quienes-somos.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-cereals/que-hacemos.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-cereals/sustentabilidad.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-cereals/legales.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-cereals/legales2.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-cereals/footer-cereals.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carru4" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carru4" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-              <div class="mt-3 mb-3">
-                <button type="button" class="btn boton-close-modal btn-info" data-bs-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="logo-trabajos imagen-flecha-neon col"><img src="img/lineas-al-reves.png" class="flecha-neon" height="800" alt="Flechas de neon">
-    </div>
-  </section>
-
-  <!-- SECCION IL CIOCCOLATO -->
-  <section class="container-fluid align-items-center row mx-auto pt-5 mb-5">
-    <div class="imagen-flecha-neon col"><img src="img/lineas.png" height="800" alt="Flechas de neon"></div>
-    <div class="col pt-3">
-      <img src="img/ilcioccolato.png" class="img-il-mobile mt-3 pb-3" alt="">
-      <h2 class="titulo-trabajos">IL CIOCCOLATO</h2>
-
-      <div class="container-programas">
-        <img src="img/html5.png" class="programas-img" alt="Logo HTML5" height="40">
-        <img src="img/css3.png" class="programas-img" alt="Logo CSS3" height="40">
-        <img src="img/sass.png" class="programas-img" alt="Logo Sass" height="40">
-        <img src="img/bootstrap.png" class="programas-img" alt="Logo Bootstrap" height="40">
-      </div>
-
-      <p class="parrafo-trabajos mt-3">Desarrollo y diseño personalizado para un emprendimiento de chocolates de
-        Argentina.
-        Dicho trabajo constó en una animación de un chocolate derritiéndose, una sección para enseñar los combos y
-        productos producidos, otra para contar la historia del emprendimiento y, por último, su propio apartado 
-        de contacto. Todo realizado con HTML5 y maquetado en CSS3 utilizando SASS y Bootstrap.
-      </p>
-
-      <!-- boton modal 5 -->
-      <button type="button" class="btn boton-modal btn-info" data-bs-toggle="modal" data-bs-target="#m5">
-        Ver más
-      </button>
-
-      <!-- Modal -->
-      <div class="modal fade" id="m5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-body">
-              <div class="mt-1 mb-3">
-                <h5 class="modal-title titulo-modal" id="exampleModalLabel">IL CIOCCOLATO</h5>
-              </div>
-              <!-- carrousel -->
-              <div id="carru5" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="img/img-il-cioccolato/header-il.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-il-cioccolato/info-historia.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-il-cioccolato/cards-combos.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-il-cioccolato/historia.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-il-cioccolato/productos.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-il-cioccolato/formulario.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/img-il-cioccolato/contacto.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carru5" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carru5" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-              <div class="mt-3 mb-3">
-                <button type="button" class="btn boton-close-modal btn-info" data-bs-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="logo-trabajos col"><img src="img/ilcioccolato.png" class="img-il-ipad" height="400"
-        alt="Logo Il cioccolato"></div>
-  </section>
-
-  <!-- SECCION Halloween Hallows  -->
-  <section class="container-fluid align-items-center row mx-auto pt-5 mb-5">
-    <div class="mobile-container col"><img src="img/halloween-hallows/logo-provisorio-hallows.png" class="img-ipad img-picatitas" height="220" alt="Logo Halloween Hallows"></div>
-    <div class="col pt-3">
-      <img src="img/halloween-hallows/logo-provisorio-hallows.png" class="img-mobile mt-3 pb-3" alt="">
-      <h2 class="titulo-trabajos">HALLOWEN HALLOWS</h2>
-      <div class="container-programas">
-        <img src="img/Wordpress.png" class="programas-img" alt="Logo Wordpress" height="40">
-        <img src="img/elementor.png" class="programas-img" alt="Logo Elementor" height="40">
-        <img src="img/PHP.png" class="programas-img" alt="Logo Php" height="40">
-      </div>
-      <p class="parrafo-trabajos mt-3">Web diseñada y desarrollada a medida para el portal de obras de terror en espñol Halloween Hallows.
-         En el sitio se compartirán las principales novedades, numerosas reseñas y recomendaciones de películas, series y libros del género terror.
-      </p>
-       <!-- boton modal 6  -->
-      <button type="button" class="btn boton-modal btn-info" data-bs-toggle="modal" data-bs-target="#m6">
-        Ver más
-      </button>
-
-      <!--  Modal --> 
-      <div class="modal fade" id="m6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-body">
-              <div class="mt-1 mb-3">
-                <h5 class="modal-title" id="exampleModalLabel">HALLOWEN HALLOWS</h5>
-              </div>
-              <!--  carrousel --> 
-              <div id="carru6" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="img/halloween-hallows/header-hallows.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/halloween-hallows/cards-hallows.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/halloween-hallows/calavera.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/halloween-hallows/it-hallows.jpeg" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carru6" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carru6" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-              <div class="mt-3 mb-3">
-                <button type="button" class="btn boton-close-modal btn-info" data-bs-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="logo-trabajos imagen-flecha-neon col"><img src="img/lineas-al-reves.png" class="flecha-neon" height="800" alt="Flechas de neon"></div>
-  </section> 
-
-  <!-- VOLVER AL INICIO -->
-  <section class="container text-center d-flex align-items-center justify-content-center navegacion">
-    <div class="d-flex justify-content-center">
+    <!-- CARTELES INFO -->
+    <div class="d-flex justify-content-center margin-150">
       <div>
-        <a href="index.html">
-          <h2 class="cartel-volver">Volver al inicio</h2>
-        </a>
+        <img src="img/info.png" height="300" alt="Cartel con información" class="cartel-info">
       </div>
     </div>
-  </section>
 
-  <!-- REDES -->
-  <aside class="d-flex d-sm-flex d-lg-block text-xl-end text-lg-end mx-4 redes">
-    <div class="colorIg">
-      <a href="https://www.instagram.com/lemurmediastudio/"><i class="fab fa-instagram-square fa-2x"></i></a>
+    <div class="d-flex justify-content-center flex-wrap">
+      <div>
+        <img src="img/info1.png" height="300" alt="Cartel con información" class="cartel-info">
+      </div>
+      <div>
+        <img src="img/info2.png" height="300" alt="Cartel con información" class="cartel-info">
+      </div>
     </div>
-    <div class="colorGh mx-2 mx-lg-0">
-      <a href="https://github.com/Lemur-Media-Studio"><i class="fab fa-github-square fa-2x"></i></a>
-    </div>
-    <div class="colorLi">
-      <a href="https://www.linkedin.com/company/lemur-media-studio/?viewAsMember=true"><i
-          class="fab fa-linkedin fa-2x"></i></a>
-    </div>
-  </aside>
+
+
+    <!-- SECCION ONE TO ONE -->
+    <section class="container-fluid align-items-center row mx-auto pt-5 mb-5">
+      <div class="imagen-flecha-neon col"><img src="img/lineas.png" height="800" alt="Flechas de neon"></div>
+      <div class="col">
+        <img src="img/onetoone.png" class="img-mobile mt-3 pb-3" alt="">
+        <h2 class="titulo-trabajos">ONE TO ONE</h2>
+        <div class="container-programas">
+          <img src="img/html5.png" class="programas-img" alt="Logo HTML5" height="40">
+          <img src="img/css3.png" class="programas-img" alt="Logo CSS3" height="40">
+          <img src="img/sass.png" class="programas-img" alt="Logo Sass" height="40">
+          <img src="img/bootstrap.png" class="programas-img" alt="Logo Bootstrap" height="40">
+          <img src="img/js.png" class="programas-img" alt="Logo JavaScript" height="40">
+          <img src="img/Jquery.webp" class="programas-img" alt="Logo jQuery" height="40">
+          <img src="img/firebase.png" class="programas-img" alt="Logo Firebase" height="40">
+        </div>
+        <p class="parrafo-trabajos mt-3">
+          Importante proyecto realizado para la empresa de courier estadounidense One to One Trade Consulting. Consistió
+          en
+          el diseño y desarrollo de un sistema de tracking, donde los clientes puedieran loguearse en el sistema y tener
+          conocimiento
+          del estado de su pedido a través del escaneo de un código QR. Así, hoy en día un cliente de One to One puede
+          saber si su
+          pedido ya fue despachado desde la central en Los Ángeles y dónde se encuentra con exactitud. A su vez se
+          desarrolló una
+          calculadora de envíos, con el fin de calcular cuánto es el valor final del servicio de courier según la
+          categoría del producto
+          comprado y su peso. Por otro lado, se diseñó y desarrolló una E-commerce a medida donde la compañía hoy ofrece
+          distintos cursos
+          principalmente de marketing. Se introdujo además un sistema de mailing, con el cual se le da una bienvenida a
+          los usuarios
+          y se les notifica cuando hay un cambio en el estado de sus compras. Finalmente, se concluyó el proyecto con el
+          desarrollo
+          de un blog donde hoy la compañía sube distitnos artículos de interés específico en su rama.
+        </p>
+        <!-- boton modal 1 -->
+        <button type="button" class="btn boton-modal btn-info mt-3" data-bs-toggle="modal" data-bs-target="#m1">
+          Ver más
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="m1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="mt-1 mb-3">
+                  <h5 class="modal-title" id="exampleModalLabel">ONE TO ONE</h5>
+                </div>
+                <!-- carrousel -->
+                <div id="carru1" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/img-one-to-one/customers1.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-one-to-one/customers2.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-one-to-one/productos.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-one-to-one/admin-usuarios.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-one-to-one/admin-productos.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-one-to-one/calculadora.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-one-to-one/ecomm.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-one-to-one/blog.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-one-to-one/mail.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-one-to-one/tracking.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carru1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carru1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div class="mt-3 mb-3">
+                  <button type="button" class="btn boton-close-modal btn-info" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="logo-trabajos col"><img src="img/onetoone.png" class="img-ipad" height="280" alt="Logo One to one">
+      </div>
+    </section>
+
+    <!-- SECCION INTER IBIZA -->
+    <section class="container-fluid align-items-center row mx-auto pt-5 mb-5">
+      <div class="mobile-container col"><img src="img/inter-escudo-sinfondo.png" class="img-ipad img-picatitas"
+          height="280" alt="Logo Inter Ibiza"></div>
+      <div class="col pt-3">
+        <img src="img/inter-escudo-sinfondo.png" class="img-mobile mt-3 pb-3" alt="">
+        <h2 class="titulo-trabajos">INTER IBIZA CD</h2>
+        <div class="container-programas">
+          <img src="img/html5.png" class="programas-img" alt="Logo HTML5" height="40">
+          <img src="img/css3.png" class="programas-img" alt="Logo CSS3" height="40">
+          <img src="img/sass.png" class="programas-img" alt="Logo Sass" height="40">
+          <img src="img/bootstrap.png" class="programas-img" alt="Logo Bootstrap" height="40">
+          <img src="img/js.png" class="programas-img" alt="Logo JavaScript" height="40">
+          <img src="img/Jquery.webp" class="programas-img" alt="Logo jQuery" height="40">
+        </div>
+        <p class="parrafo-trabajos mt-3">
+          Diseño y desarrollo personalizado del sitio web oficial del Inter Ibiza Club Deportivo, entidad deportiva
+          de Ibiza centrada en el fútbol profesional. Actualmente el club se encuentra en Tercera División RFEF. El
+          objetivo
+          principal consistió en visibilizar el rendimiento del equipo profesional de fútbol durante la temporada
+          2020/21,
+          y para ello
+          se mantuvo actualizada tanto la clasificación y el fixture con los resultados de los partidos y las
+          principales
+          incidencias ocurridas
+          en ellos, como las noticias de la actualidad del club. Por otro lado, se dedicó un apartado para dar a conocer
+          a
+          los miembros
+          de la Directiva, con nombres y cargos. Por último, se desarrolló una página de contacto indicando la dirección
+          del estadio y
+          los principales canales de contacto.
+        </p>
+        <!-- boton modal 2 -->
+        <button type="button" class="btn boton-modal btn-info mt-3" data-bs-toggle="modal" data-bs-target="#m2">
+          Ver más
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="m2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+              <div class="modal-body">
+                <div class="mt-1 mb-3">
+                  <h5 class="modal-title" id="exampleModalLabel">ONE TO ONE</h5>
+                </div>
+                <!-- carrousel -->
+                <div id="carru2" class="carousel slide" data-bs-ride="carouse1">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/img-inter-ibiza/inter-web-header.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-inter-ibiza/inter-fixture.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-inter-ibiza/grid-noticias-y-clasificacion-mini.jpeg" class="d-block w-100"
+                        alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-inter-ibiza/noticia-principal.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-inter-ibiza/casificacion.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-inter-ibiza/hazte-socio.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-inter-ibiza/directiva.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-inter-ibiza/contacto.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-inter-ibiza/inter-web-footer.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carru2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carru2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div class="mt-3 mb-3">
+                  <button type="button" class="btn boton-close-modal btn-info" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="logo-trabajos imagen-flecha-neon col"><img src="img/lineas-al-reves.png" class="flecha-neon"
+          height="800" alt="Flechas de neon"></div>
+    </section>
+
+    <!-- SECCION GARRAHAN -->
+    <section class="container-fluid align-items-center row mx-auto pt-5 mb-5">
+      <div class="imagen-flecha-neon col"><img src="img/lineas.png" height="800" alt="Flechas de neon"></div>
+      <div class="col pt-3">
+        <!-- mobile -->
+        <img src="img/howtrainer.png" height="160" class="img-how-mobile mt-3 pb-3" alt="">
+        <h2 class="titulo-trabajos">HOW TRAINER</h2>
+        <div class="container-programas">
+          <img src="img/python.png" alt="Logo Python" height="40">
+          <img src="img/matplot.png" class="programas-img" alt="Logo Matplot" height="40">
+          <img src="img/pandas.png" class="programas-img" alt="Logo Pandas" height="40">
+        </div>
+        <p class="parrafo-trabajos mt-3">Aplicación de escritorio para tomar datos de usuarios y utilizarlos en
+          entrenadores quirúrgicos. La idea principal de esta aplicación es graficar y medir tiempos en distintas
+          practicas y ejercicios quirúrgicos. Seguimos
+          actualizando la app teniendo en cuenta la experiencia y el feedback del usuario final. Actualmente, el
+          Hospital
+          Garrahan utiliza este software.
+        </p>
+        <!-- boton modal 3 -->
+        <button type="button" class="btn boton-modal btn-info mt-3" data-bs-toggle="modal" data-bs-target="#m3">
+          Ver más
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="m3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="mt-1 mb-3">
+                  <h5 class="modal-title" id="exampleModalLabel">ONE TO ONE</h5>
+                </div>
+                <!-- carrousel -->
+                <div id="carru3" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/how-trainer/aplicacion.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carru3" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carru3" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div class="mt-3 mb-3">
+                  <button type="button" class="btn boton-close-modal btn-info" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="logo-trabajos col"><img src="img/howtrainer.png" class="img-how-ipad" height="100"
+          alt="Logo Garrahan">
+      </div>
+    </section>
+
+    <!-- SECCION CEREALS ONLINE -->
+    <section class="container-fluid align-items-center row mx-auto pt-5 mb-5">
+      <div class="mobile-container col"><img src="img/cereals.png" class="img-ipad img-picatitas" height="280"
+          alt="Logo Cereals Online"></div>
+      <div class="col pt-3">
+        <img src="img/cereals.png" height="160" class="img-mobile mt-3 pb-3" alt="">
+        <h2 class="titulo-trabajos">CEREALS ONLINE</h2>
+        <div class="container-programas">
+          <img src="img/html5.png" class="programas-img" alt="Logo HTML5" height="40">
+          <img src="img/css3.png" class="programas-img" alt="Logo CSS3" height="40">
+          <img src="img/sass.png" class="programas-img" alt="Logo Sass" height="40">
+          <img src="img/bootstrap.png" class="programas-img" alt="Logo Bootstrap" height="40">
+          <img src="img/Jquery.webp" class="programas-img" alt="Logo jQuery" height="40">
+          <img src="img/SVG_Logo.svg.png" class="programas-img" alt="Logo SVG" height="40">
+        </div>
+        <p class="parrafo-trabajos mt-3">Diseño y desarrollo de una web para una compañía ceralera de España.
+          Se realizaron trabajos con filtros que indicaran la capacidad de carga de distintos buques.
+          Esta carga se determinó utilizando un SVG y realizando animaciones con CSS, JavaScript y jQuery.
+        </p>
+        <!-- boton modal 4 -->
+        <button type="button" class="btn boton-modal btn-info mt-3" data-bs-toggle="modal" data-bs-target="#m4">
+          Ver más
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="m4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="mt-1 mb-3">
+                  <h5 class="modal-title" id="exampleModalLabel">ONE TO ONE</h5>
+                </div>
+                <!-- carrousel -->
+                <div id="carru4" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/img-cereals/header-cereals.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-cereals/alimentos.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-cereals/barcos-alimentos.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-cereals/quienes-somos.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-cereals/que-hacemos.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-cereals/sustentabilidad.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-cereals/legales.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-cereals/legales2.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-cereals/footer-cereals.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carru4" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carru4" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div class="mt-3 mb-3">
+                  <button type="button" class="btn boton-close-modal btn-info" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="logo-trabajos imagen-flecha-neon col"><img src="img/lineas-al-reves.png" class="flecha-neon"
+          height="800" alt="Flechas de neon">
+      </div>
+    </section>
+
+    <!-- SECCION IL CIOCCOLATO -->
+    <section class="container-fluid align-items-center row mx-auto pt-5 mb-5">
+      <div class="imagen-flecha-neon col"><img src="img/lineas.png" height="800" alt="Flechas de neon"></div>
+      <div class="col pt-3">
+        <img src="img/ilcioccolato.png" class="img-il-mobile mt-3 pb-3" alt="">
+        <h2 class="titulo-trabajos">IL CIOCCOLATO</h2>
+
+        <div class="container-programas">
+          <img src="img/html5.png" class="programas-img" alt="Logo HTML5" height="40">
+          <img src="img/css3.png" class="programas-img" alt="Logo CSS3" height="40">
+          <img src="img/sass.png" class="programas-img" alt="Logo Sass" height="40">
+          <img src="img/bootstrap.png" class="programas-img" alt="Logo Bootstrap" height="40">
+        </div>
+
+        <p class="parrafo-trabajos mt-3">Desarrollo y diseño personalizado para un emprendimiento de chocolates de
+          Argentina.
+          Dicho trabajo constó en una animación de un chocolate derritiéndose, una sección para enseñar los combos y
+          productos producidos, otra para contar la historia del emprendimiento y, por último, su propio apartado
+          de contacto. Todo realizado con HTML5 y maquetado en CSS3 utilizando SASS y Bootstrap.
+        </p>
+
+        <!-- boton modal 5 -->
+        <button type="button" class="btn boton-modal btn-info" data-bs-toggle="modal" data-bs-target="#m5">
+          Ver más
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="m5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="mt-1 mb-3">
+                  <h5 class="modal-title titulo-modal" id="exampleModalLabel">IL CIOCCOLATO</h5>
+                </div>
+                <!-- carrousel -->
+                <div id="carru5" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/img-il-cioccolato/header-il.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-il-cioccolato/info-historia.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-il-cioccolato/cards-combos.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-il-cioccolato/historia.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-il-cioccolato/productos.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-il-cioccolato/formulario.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/img-il-cioccolato/contacto.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carru5" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carru5" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div class="mt-3 mb-3">
+                  <button type="button" class="btn boton-close-modal btn-info" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="logo-trabajos col"><img src="img/ilcioccolato.png" class="img-il-ipad" height="400"
+          alt="Logo Il cioccolato"></div>
+    </section>
+
+    <!-- SECCION Halloween Hallows  -->
+    <section class="container-fluid align-items-center row mx-auto pt-5 mb-5">
+      <div class="mobile-container col"><img src="img/halloween-hallows/logo-provisorio-hallows.png"
+          class="img-ipad img-picatitas" height="220" alt="Logo Halloween Hallows"></div>
+      <div class="col pt-3">
+        <img src="img/halloween-hallows/logo-provisorio-hallows.png" class="img-mobile mt-3 pb-3" alt="">
+        <h2 class="titulo-trabajos">HALLOWEN HALLOWS</h2>
+        <div class="container-programas">
+          <img src="img/Wordpress.png" class="programas-img" alt="Logo Wordpress" height="40">
+          <img src="img/elementor.png" class="programas-img" alt="Logo Elementor" height="40">
+          <img src="img/PHP.png" class="programas-img" alt="Logo Php" height="40">
+        </div>
+        <p class="parrafo-trabajos mt-3">Web diseñada y desarrollada a medida para el portal de obras de terror en
+          espñol Halloween Hallows.
+          En el sitio se compartirán las principales novedades, numerosas reseñas y recomendaciones de películas, series
+          y libros del género terror.
+        </p>
+        <!-- boton modal 6  -->
+        <button type="button" class="btn boton-modal btn-info" data-bs-toggle="modal" data-bs-target="#m6">
+          Ver más
+        </button>
+
+        <!--  Modal -->
+        <div class="modal fade" id="m6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="mt-1 mb-3">
+                  <h5 class="modal-title" id="exampleModalLabel">HALLOWEN HALLOWS</h5>
+                </div>
+                <!--  carrousel -->
+                <div id="carru6" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/halloween-hallows/header-hallows.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/halloween-hallows/cards-hallows.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/halloween-hallows/calavera.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/halloween-hallows/it-hallows.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carru6" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carru6" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div class="mt-3 mb-3">
+                  <button type="button" class="btn boton-close-modal btn-info" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="logo-trabajos imagen-flecha-neon col"><img src="img/lineas-al-reves.png" class="flecha-neon"
+          height="800" alt="Flechas de neon"></div>
+    </section>
+
+    <!-- VOLVER AL INICIO -->
+    <section class="container text-center d-flex align-items-center justify-content-center navegacion">
+      <div class="d-flex justify-content-center">
+        <div>
+          <a href="index.html">
+            <h2 class="cartel-volver">Volver al inicio</h2>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- REDES -->
+    <aside class="d-flex d-sm-flex d-lg-block text-xl-end text-lg-end mx-4 redes">
+      <div class="colorIg">
+        <a href="https://www.instagram.com/lemurmediastudio/"><i class="fab fa-instagram-square fa-2x"></i></a>
+      </div>
+      <div class="colorGh mx-2 mx-lg-0">
+        <a href="https://github.com/Lemur-Media-Studio"><i class="fab fa-github-square fa-2x"></i></a>
+      </div>
+      <div class="colorLi">
+        <a href="https://www.linkedin.com/company/lemur-media-studio/?viewAsMember=true"><i
+            class="fab fa-linkedin fa-2x"></i></a>
+      </div>
+    </aside>
+
+  </main>
 
 
 
 
 
-
-
-    <!-- BOTON VOLVER AL INICIO -->
-    <!-- <section class="container text-center d-flex align-items-center justify-content-center navegacion">
+  <!-- BOTON VOLVER AL INICIO -->
+  <!-- <section class="container text-center d-flex align-items-center justify-content-center navegacion">
       <div class="d-flex justify-content-center">
         <div>
           <a href="index.html"><h2 class="cartel-i">Volver al inicio</h2></a>
@@ -595,10 +615,17 @@
 
 
 
+  <!-- NUESTROS SCRIPTS -->
+  <script src="js/main.js"></script>
+  <!-- AOS -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
+  <!-- JQUERY -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- BOOTSTRAP -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
   </script>

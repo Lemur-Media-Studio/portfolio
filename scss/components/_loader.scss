@@ -4,3 +4,11 @@
     left: 45% !important;
     background-color: black !important;
 }
+
+@media only screen and (max-width: 451px){
+    .loader{
+        position:static !important;
+        margin: 50% auto 50% auto;
+        background-color: black !important;
+    }
+}

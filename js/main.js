@@ -5,6 +5,6 @@ window.addEventListener('load',()=>{
     $('.cuerpo').delay(1000).fadeIn('slow',()=>{console.log('Body cargado')});
 })
 
-document.getElementById("calificacion").addEventListener("click", function(event){
+/* document.getElementById("calificacion").addEventListener("click", function(event){
     event.preventDefault()
-});
+}); */
